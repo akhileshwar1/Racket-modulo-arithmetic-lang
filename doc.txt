@@ -1,0 +1,27 @@
+-----------------------------------------------------------------------------------------------------
+
+Abstract:
+
+A language that deals with operations in modulo arithmetic but in a lisp like syntax. That is pre-o
+perator. 
+
+-----------------------------------------------------------------------------------------------------
+
+Rules of evaluation:
+
+1. Every number is a number modulo n.
+2. Every operator result can be trimmed down in the ring by modulo n.
+
+or
+
+1. Every number by itself or as a result has to be in the ring.
+
+-----------------------------------------------------------------------------------------------------
+
+Grammar:
+
+An expression:
+
+(mod n x)-> (define n x)
+(Z int) -> int/n
+(Z operator)-> defines a operator macro that performs normally and as last step performs modulo by n.

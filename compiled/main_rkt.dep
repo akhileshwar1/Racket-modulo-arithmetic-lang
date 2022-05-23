@@ -1,0 +1,1 @@
+("8.3" ta6le ("45167e15354671721a7b09e5881779673019cfb2" . "1e50942ec7e3f39a4c3785b80ff09dddd1f455a5") (collects #"modulo-lang" #"modulo-lang.rkt") (collects #"racket" #"main.rkt") (collects #"racket" #"runtime-config.rkt"))
